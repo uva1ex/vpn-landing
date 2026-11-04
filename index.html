@@ -55,7 +55,7 @@ document.getElementById('getTrialBtn').addEventListener('click', async function(
     resultDiv.style.display = 'none';
 
     try {
-        const response = await fetch('https://sub.freedominternet.cc.cd/api/get_trial', {
+        const response = await fetch('https://sub.freedominternet.cc.cd:9443/api/get_trial', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' }
         });
